@@ -1,0 +1,712 @@
+/*begin-commonstyles library*//*!
+ * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
+ * License https://froala.com/wysiwyg-editor/terms/
+ * Copyright 2014-2020 Froala Labs
+ */
+/*.fr-view[dir="rtl"] blockquote {
+  border-left: none;
+  border-right: solid 2px #5E35B1;
+  margin-right: 0;
+  padding-right: 5px;
+  padding-left: 0; }
+  .fr-view[dir="rtl"] blockquote blockquote {
+    border-color: #00BCD4; }
+    .fr-view[dir="rtl"] blockquote blockquote blockquote {
+      border-color: #43A047; }
+.fr-view blockquote {
+  border-left: solid 2px #5E35B1;
+  margin-left: 0;
+  padding-left: 5px;
+  color: #5E35B1; }
+  .fr-view blockquote blockquote {
+    border-color: #00BCD4;
+    color: #00BCD4; }
+    .fr-view blockquote blockquote blockquote {
+      border-color: #43A047;
+      color: #43A047; }*/
+
+/**
+ * Image style.
+ */
+
+/**
+ * Link style.
+ */
+/*end-commonstyles library*//*begin-commonstyles library*/@charset "UTF-8";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.7.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2018 Daniel Eden
+ */
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+/*end-commonstyles library*//*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  margin-top: 10em;
+}
+section {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+img {
+  border-style: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+/* Fade effect */
+/* Over effect */
+/* Slide effect */
+/* Over and Slide effect */
+/* Flip Left effect */
+/* Flip Right effect */
+/* Flip Top effect */
+/* Flip Bottom effect */
+/* Wobble Left effect */
+/* Wobble Right effect */
+/* Wobble top effect */
+/* Wobble bottom effect */
+/* Zoom and Rotate Effects */
+/* Utility */
+/* Fade effect */
+/* Over effect */
+/* Slide effect */
+/* Flip */
+/* Wooble */
+/* Zoom */
+/* ********  spacing ******** */
+/* ********  end of spacing ******** */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body {
+  height: auto;
+  min-height: 100%;
+}
+body,
+section {
+  position: relative;
+}
+section > *,
+.team-sheet > * {
+  position: relative;
+}
+.team-clearfix:after,
+.team-clearfix:before {
+  content: '';
+  display: table;
+}
+.team-clearfix:after {
+  clear: both;
+}
+.team-text-default {
+  display: table;
+  align-self: flex-start;
+}
+.team-image {
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+img.team-image {
+  overflow: hidden;
+}
+.team-sheet {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .team-sheet {
+    width: 1140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .team-sheet {
+    width: 940px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-sheet {
+    width: 720px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .team-sheet {
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+  .team-sheet {
+    width: 340px;
+  }
+}
+.team-container-layout {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+}
+.team-container-layout > * {
+  position: relative;
+}
+.team-sheet:not(.team-image):not(.team-video) {
+  pointer-events: none;
+}
+.team-sheet:not(.team-image):not(.team-video) > * {
+  pointer-events: auto;
+  pointer-events: initial;
+}
+@supports (position: sticky) {
+}
+@supports (position: -webkit-sticky) {
+}
+.team-group .team-container-layout > * {
+  position: relative;
+}
+.team-group {
+  display: flex;
+}
+.team-shape-round,
+.team-shape-round:before,
+.team-shape-round > .team-container-layout {
+  border-radius: 10px;
+}
+html {
+  font-size: 16px;
+}
+.team-body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.team-body h1,
+.team-body h3 {
+  padding: 0;
+}
+h1,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: inherit;
+}
+h1 {
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+p {
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.team-align-center {
+  text-align: center;
+}
+.team-text {
+  word-wrap: break-word;
+  position: relative;
+}
+.team-font-titillium-web.team-custom-font {
+  font-family: 'Titillium Web', sans-serif !important;
+}
+/*begin-commonstyles photoswipe*/
+/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+/* style is added when JS option showHideOpacity is set to true */
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+/* Prevent selection and tap highlights */
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+/* previews */
+/* end previews  */
+/*end-commonstyles photoswipe*/
+/*begin-commonstyles photoswipe-default*/
+/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+
+	Contents:
+
+	1. Buttons
+	2. Share modal and links
+	3. Index indicator ("1 of X" counter)
+	4. Caption
+	5. Loading indicator
+	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
+
+*/
+/*
+
+	1. Buttons
+
+ */
+/* <button> css reset */
+/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+}
+/* no arrows on touch screens */
+/*
+	Arrow buttons hit area
+	(icon is added to :before pseudo-element)
+*/
+/*
+
+	2. Share modal/popup and links
+
+ */
+/* increase size of share links on touch devices */
+/*
+
+	3. Index indicator ("1 of X" counter)
+
+ */
+/*
+
+	4. Caption
+
+ */
+/* Fake caption element, used to calculate height of next/prev image */
+/*
+
+	5. Loading indicator (preloader)
+
+	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
+
+ */
+/*
+
+	6. Additional styles
+
+ */
+/* root element of UI */
+/* top black bar with buttons and "1 of X" indicator */
+/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
+/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
+/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
+/*
+	pswp__ui--hidden class is added when controls are hidden
+	e.g. when user taps to toggle visibility of controls
+*/
+/* pswp__ui--one-slide class is added when there is just one item in gallery */
+/*end-commonstyles photoswipe-default*/
+/*begin-commonstyles animation*/
+/* Fix zoomIn animation for Internet Explorer */
+/*end-commonstyles animation*/
+.team-black {
+  color: #ffffff;
+  background-color: #000000;
+}
+/*end-variables colors*/
+
+/*begin-variables sitestylecss*/
+
+
+
+.team-custom-color-3,
+.team-container-style.team-custom-color-3:before
+{
+  color: #ffffff;
+  background-color: #333333;
+}
+
+
+
+/** common-rules **/
+h1:not(.team-title)
+{
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3
+{
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+p:not(.team-text-variant)
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/** common-rules **/
+
+/** publish-rules **/
+/*begin-media rules*/
+@media (max-width: 575px) {
+  h1:not(.team-title)
+  {
+    font-size: 2.25rem;
+  }
+}
+@media (max-width: 575px) {
+  h3
+  {
+    font-size: 1.5rem;
+  }
+}
+/*end-media rules*/
+/** publish-rules **/
+
+
+
+/** cms-rules **/
+/*begin-responsive rules*/
+/*end-responsive rules*/
+/** cms-rules **/
+
+/** color-rules **/
+/** color-rules **/
+
+/** alt-color-rules **/
+/** alt-color-rules **/
+
+
+
+/*end-variables sitestylecss*/
+
+/*begin-variables base-font-size*/
+html { font-size: 16px; }
+/*end-variables base-font-size*/
+
+.team-section-1 {
+  background-image: none;
+}
+
+.team-section-1 .team-sheet-1 {
+  min-height: 678px;
+}
+
+.team-section-1 .team-text-1 {
+  font-weight: 700;
+  margin: 60px auto 0;
+}
+
+.team-section-1 .team-group-1 {
+  width: 400px;
+  min-height: 160px;
+  height: auto;
+  margin: 50px auto 0 120px;
+}
+
+.team-section-1 .team-container-layout-1 {
+  padding: 19px 0;
+}
+
+.team-section-1 .team-image-1 {
+  width: 110px;
+  height: 123px;
+  margin: 0 auto 0 20px;
+}
+
+.team-section-1 .team-text-2 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -87px 69px 0 180px;
+}
+
+.team-section-1 .team-text-3 {
+  font-weight: 400;
+  margin: -7px 45px 0 155px;
+}
+
+.team-section-1 .team-group-2 {
+  width: 400px;
+  min-height: 160px;
+  height: auto;
+  margin: -160px 120px 0 auto;
+}
+
+.team-section-1 .team-container-layout-2 {
+  padding: 19px 0;
+}
+
+.team-section-1 .team-image-2 {
+  width: 110px;
+  height: 123px;
+  margin: 0 auto 0 20px;
+}
+
+.team-section-1 .team-text-4 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -87px 69px 0 180px;
+}
+
+.team-section-1 .team-text-5 {
+  font-weight: 400;
+  margin: -7px 45px 0 155px;
+}
+
+.team-section-1 .team-text-6 {
+  font-weight: 700;
+  margin: 50px auto 0;
+}
+
+.team-section-1 .team-group-3 {
+  width: 320px;
+  min-height: 160px;
+  height: auto;
+  margin: 50px auto 0;
+}
+
+.team-section-1 .team-container-layout-3 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.team-section-1 .team-image-3 {
+  width: 110px;
+  height: 123px;
+  margin: 18px auto 0 20px;
+}
+
+.team-section-1 .team-text-7 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -86px 25px 0 145px;
+}
+
+.team-section-1 .team-text-8 {
+  font-weight: 400;
+  margin: -7px 10px 0 130px;
+}
+
+.team-section-1 .team-group-4 {
+  width: 320px;
+  min-height: 160px;
+  height: auto;
+  margin: -160px auto 0 50px;
+}
+
+.team-section-1 .team-container-layout-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.team-section-1 .team-image-4 {
+  width: 110px;
+  height: 123px;
+  margin: 18px auto 0 20px;
+}
+
+.team-section-1 .team-text-9 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -86px 25px 0 145px;
+}
+
+.team-section-1 .team-text-10 {
+  font-weight: 400;
+  margin: -7px 10px 0 130px;
+}
+
+.team-section-1 .team-group-5 {
+  width: 320px;
+  min-height: 160px;
+  height: auto;
+  margin: -160px auto 60px 770px;
+}
+
+.team-section-1 .team-container-layout-5 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.team-section-1 .team-image-5 {
+  width: 110px;
+  height: 123px;
+  margin: 18px auto 0 20px;
+}
+
+.team-section-1 .team-text-11 {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin: -86px 25px 0 145px;
+}
+
+.team-section-1 .team-text-12 {
+  font-weight: 400;
+  margin: -7px 10px 0 130px;
+}
+
+@media (max-width: 1199px) {
+  .team-section-1 .team-group-1 {
+    height: auto;
+  }
+
+  .team-section-1 .team-text-2 {
+    font-weight: 400;
+  }
+
+  .team-section-1 .team-group-2 {
+    height: auto;
+  }
+
+  .team-section-1 .team-text-4 {
+    font-weight: 400;
+  }
+
+  .team-section-1 .team-group-3 {
+    margin-top: 114px;
+    margin-left: 385px;
+    height: auto;
+  }
+
+  .team-section-1 .team-container-layout-3 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+
+  .team-section-1 .team-group-4 {
+    margin-left: 25px;
+    height: auto;
+  }
+
+  .team-section-1 .team-container-layout-4 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+
+  .team-section-1 .team-text-9 {
+    font-weight: 400;
+  }
+
+  .team-section-1 .team-group-5 {
+    margin-left: 595px;
+    height: auto;
+  }
+
+  .team-section-1 .team-container-layout-5 {
+    padding-top: 19px;
+    padding-bottom: 19px;
+  }
+}
+
+@media (max-width: 991px) {
+  .team-section-1 .team-group-3 {
+    margin-left: 375px;
+  }
+
+  .team-section-1 .team-group-5 {
+    margin-left: 375px;
+  }
+}
+
+@media (max-width: 767px) {
+  .team-section-1 .team-group-3 {
+    margin-left: 195px;
+  }
+
+  .team-section-1 .team-group-5 {
+    margin-left: 195px;
+  }
+}
+
+@media (max-width: 575px) {
+  .team-section-1 .team-group-1 {
+    width: 340px;
+    margin-left: 0;
+  }
+
+  .team-section-1 .team-text-2 {
+    margin-right: 39px;
+    margin-left: 150px;
+  }
+
+  .team-section-1 .team-text-3 {
+    margin-right: 89px;
+    margin-left: 125px;
+  }
+
+  .team-section-1 .team-group-2 {
+    width: 340px;
+    margin-right: 0;
+  }
+
+  .team-section-1 .team-text-4 {
+    margin-right: 39px;
+    margin-left: 150px;
+  }
+
+  .team-section-1 .team-text-5 {
+    margin-right: 89px;
+    margin-left: 125px;
+  }
+
+  .team-section-1 .team-text-6 {
+    margin-left: 20px;
+  }
+
+  .team-section-1 .team-group-3 {
+    margin-top: 122px;
+    margin-left: 10px;
+  }
+
+  .team-section-1 .team-group-4 {
+    margin-left: 10px;
+  }
+
+  .team-section-1 .team-text-10 {
+    margin-right: 89px;
+  }
+
+  .team-section-1 .team-group-5 {
+    margin-left: 10px;
+  }
+}

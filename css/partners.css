@@ -1,0 +1,647 @@
+.uu-section-1 .uu-sheet-1 {
+  min-height: 371px;
+}
+
+.uu-section-1 .uu-text-1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-transform: none;
+  margin: 50px auto 0;
+}
+
+.uu-section-1 .uu-text-2 {
+  width: 760px;
+  margin: 20px auto 0;
+}
+
+.uu-section-1 .uu-layout-wrap-1 {
+  width: 201px;
+  margin: 34px auto 0;
+}
+
+.uu-section-1 .uu-layout-cell-1 {
+  min-height: 153px;
+  margin-top: 0;
+}
+
+.uu-section-1 .uu-container-layout-1 {
+  padding: 19px 0;
+}
+
+.uu-section-1 .uu-image-1 {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.uu-section-1 .uu-text-3 {
+  font-weight: 700;
+  margin: 6px 1px 0;
+}
+
+.uu-section-1 .uu-layout-wrap-2 {
+  width: 201px;
+  margin: -153px 241px 0 auto;
+}
+
+.uu-section-1 .uu-layout-cell-2 {
+  min-height: 153px;
+  margin-top: 0;
+}
+
+.uu-section-1 .uu-container-layout-2 {
+  padding: 19px 0;
+}
+
+.uu-section-1 .uu-image-2 {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.uu-section-1 .uu-text-4 {
+  font-weight: 700;
+  margin: 6px 0 0;
+}
+
+.uu-section-1 .uu-layout-wrap-3 {
+  width: 201px;
+  margin: -153px 0 0 auto;
+}
+
+.uu-section-1 .uu-layout-cell-3 {
+  min-height: 153px;
+  margin-top: 0;
+}
+
+.uu-section-1 .uu-container-layout-3 {
+  padding: 19px 0;
+}
+
+.uu-section-1 .uu-image-3 {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.uu-section-1 .uu-text-5 {
+  font-weight: 700;
+  margin: 6px 0 0;
+}
+
+.uu-section-1 .uu-layout-wrap-4 {
+  width: 201px;
+  margin: -152px auto 0 241px;
+}
+
+.uu-section-1 .uu-layout-cell-4 {
+  min-height: 153px;
+  margin-top: 0;
+}
+
+.uu-section-1 .uu-container-layout-4 {
+  padding: 19px 0;
+}
+
+.uu-section-1 .uu-image-4 {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.uu-section-1 .uu-text-6 {
+  font-weight: 700;
+  margin: 6px 0 0;
+}
+
+.uu-section-1 .uu-layout-wrap-5 {
+  width: 201px;
+  margin: -153px auto -1px 0;
+}
+
+.uu-section-1 .uu-layout-cell-5 {
+  min-height: 153px;
+  margin-top: 0;
+}
+
+.uu-section-1 .uu-container-layout-5 {
+  padding: 19px 0;
+}
+
+.uu-section-1 .uu-image-5 {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto;
+}
+
+.uu-section-1 .uu-text-7 {
+  font-weight: 700;
+  margin: 6px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .uu-section-1 .uu-image-1 {
+    width: 58px;
+    height: 58px;
+  }
+
+  .uu-section-1 .uu-image-2 {
+    width: 58px;
+    height: 58px;
+  }
+
+  .uu-section-1 .uu-image-3 {
+    width: 58px;
+    height: 58px;
+  }
+
+  .uu-section-1 .uu-image-4 {
+    width: 58px;
+    height: 58px;
+  }
+
+  .uu-section-1 .uu-image-5 {
+    width: 58px;
+    height: 58px;
+  }
+}
+
+@media (max-width: 991px) {
+  .uu-section-1 .uu-sheet-1 {
+    min-height: 106px;
+  }
+
+  .uu-section-1 .uu-text-2 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .uu-section-1 .uu-text-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .uu-section-1 .uu-text-2 {
+    width: 340px;
+  }
+
+  .uu-section-1 .uu-layout-wrap-2 {
+    margin-right: 139px;
+  }
+
+  .uu-section-1 .uu-layout-wrap-4 {
+    margin-left: 139px;
+  }
+}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+section {
+  display: block;
+}
+img {
+  border-style: none;
+}
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+/* Fade effect */
+/* Over effect */
+/* Slide effect */
+/* Over and Slide effect */
+/* Flip Left effect */
+/* Flip Right effect */
+/* Flip Top effect */
+/* Flip Bottom effect */
+/* Wobble Left effect */
+/* Wobble Right effect */
+/* Wobble top effect */
+/* Wobble bottom effect */
+/* Zoom and Rotate Effects */
+/* Utility */
+/* Fade effect */
+/* Over effect */
+/* Slide effect */
+/* Flip */
+/* Wooble */
+/* Zoom */
+/* ********  spacing ******** */
+/* ********  end of spacing ******** */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+body {
+  height: auto;
+  min-height: 100%;
+}
+body,
+section {
+  position: relative;
+}
+section > *,
+.uu-sheet > * {
+  position: relative;
+}
+.uu-clearfix:after,
+.uu-clearfix:before {
+  content: '';
+  display: table;
+}
+.uu-clearfix:after {
+  clear: both;
+}
+.uu-text-default {
+  display: table;
+  align-self: flex-start;
+}
+.uu-image {
+  object-fit: cover;
+  display: block;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+img.uu-image {
+  overflow: hidden;
+}
+.uu-image-round {
+  border-radius: 10px;
+}
+.uu-sheet {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+@media (min-width: 1200px) {
+  .uu-sheet {
+    width: 1140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .uu-sheet {
+    width: 940px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .uu-sheet {
+    width: 720px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .uu-sheet {
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+  .uu-sheet {
+    width: 340px;
+  }
+}
+.uu-container-layout {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+}
+.uu-container-layout > * {
+  position: relative;
+}
+.uu-valign-top,
+.uu-valign-bottom {
+  display: flex;
+  flex-direction: column;
+}
+.uu-valign-top > *,
+.uu-valign-bottom > * {
+  flex-shrink: 0;
+}
+.uu-valign-top {
+  justify-content: flex-start;
+}
+.uu-valign-bottom {
+  justify-content: flex-end;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .uu-layout-wrap:not(.uu-layout-custom-sm) .uu-layout-row > * {
+    min-width: 100%;
+  }
+  .uu-layout-wrap:not(.uu-layout-custom-sm) .uu-layout {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .uu-layout-wrap:not(.uu-layout-custom-sm) .uu-layout .uu-layout-cell {
+    border-left: 0 !important;
+    border-right: 0 !important;
+  }
+}
+@media (max-width: 575px) {
+  .uu-layout-wrap:not(.uu-layout-custom-xs) .uu-layout-row > * {
+    min-width: 100%;
+  }
+  .uu-layout-wrap:not(.uu-layout-custom-xs) .uu-layout {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .uu-layout-wrap:not(.uu-layout-custom-xs) .uu-layout .uu-layout-cell {
+    border-left: 0 !important;
+    border-right: 0 !important;
+  }
+}
+.uu-layout-row > .uu-size-60 {
+  flex: 0 0 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.uu-layout-row {
+  display: flex;
+}
+.uu-layout-row {
+  flex: 1 1 100%;
+}
+.uu-layout-row > * {
+  max-height: 100%;
+  min-height: -webkit-fit-content;
+  min-height: fit-content;
+}
+.uu-layout-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 100%;
+  max-width: 100%;
+}
+.uu-layout-cell {
+  position: relative;
+  display: flex;
+  background-clip: padding-box;
+  background-origin: padding-box;
+}
+.uu-sheet:not(.uu-image):not(.uu-video) {
+  pointer-events: none;
+}
+.uu-sheet:not(.uu-image):not(.uu-video) > * {
+  pointer-events: auto;
+  pointer-events: initial;
+}
+@supports (position: sticky) {
+}
+@supports (position: -webkit-sticky) {
+}
+.uu-shape-round,
+.uu-shape-round:before,
+.uu-shape-round > .uu-container-layout {
+  border-radius: 10px;
+}
+html {
+  font-size: 16px;
+}
+.uu-body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.uu-body h2 {
+  padding: 0;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  color: inherit;
+}
+h2 {
+  font-size: 1.5rem;
+}
+p {
+  margin-top: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+.uu-align-center {
+  text-align: center;
+}
+.uu-text {
+  word-wrap: break-word;
+  position: relative;
+}
+.uu-font-titillium-web.uu-custom-font {
+  font-family: 'Titillium Web', sans-serif !important;
+}
+.uu-layout-cell {
+  background-color: transparent !important;
+  opacity: 1;
+}
+.uu-layout-cell:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/*begin-commonstyles photoswipe*/
+/*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
+*/
+/* pswp = photoswipe */
+/* style is added when JS option showHideOpacity is set to true */
+/*
+	Background is added as a separate element.
+	As animating opacity is much faster than animating rgba() background-color.
+*/
+/* Prevent selection and tap highlights */
+/*
+	stretched thumbnail or div placeholder element (see below)
+	style is added to avoid flickering in webkit/blink when layers overlap
+*/
+/*
+	div element that matches size of large image
+	large image loads on top of it
+*/
+/*
+	Error message appears when image is not loaded
+	(JS option errorMsg controls markup)
+*/
+/* previews */
+/* end previews  */
+/*end-commonstyles photoswipe*/
+/*begin-commonstyles photoswipe-default*/
+/*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
+/*
+
+	Contents:
+
+	1. Buttons
+	2. Share modal and links
+	3. Index indicator ("1 of X" counter)
+	4. Caption
+	5. Loading indicator
+	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
+
+*/
+/*
+
+	1. Buttons
+
+ */
+/* <button> css reset */
+/* pswp__ui--over-close class it added when mouse is over element that should close gallery */
+@media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
+  /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
+}
+/* no arrows on touch screens */
+/*
+	Arrow buttons hit area
+	(icon is added to :before pseudo-element)
+*/
+/*
+
+	2. Share modal/popup and links
+
+ */
+/* increase size of share links on touch devices */
+/*
+
+	3. Index indicator ("1 of X" counter)
+
+ */
+/*
+
+	4. Caption
+
+ */
+/* Fake caption element, used to calculate height of next/prev image */
+/*
+
+	5. Loading indicator (preloader)
+
+	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
+
+ */
+/*
+
+	6. Additional styles
+
+ */
+/* root element of UI */
+/* top black bar with buttons and "1 of X" indicator */
+/* pswp--has_mouse class is added only when two subsequent mousemove events occur */
+/* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
+/* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
+/*
+	pswp__ui--hidden class is added when controls are hidden
+	e.g. when user taps to toggle visibility of controls
+*/
+/* pswp__ui--one-slide class is added when there is just one item in gallery */
+/*end-commonstyles photoswipe-default*/
+/*begin-commonstyles animation*/
+/* Fix zoomIn animation for Internet Explorer */
+/*end-commonstyles animation*/
+.uu-radius-5,
+.uu-radius-5:before,
+.uu-radius-5 > .uu-container-layout {
+  border-radius: 5px !important;
+}
+.uu-radius-10,
+.uu-radius-10:before {
+  border-radius: 10px !important;
+}
+/*begin-variables font-family*/
+.uu-body {
+  font-family: 'Open Sans',sans-serif;
+}
+h2 {
+  font-family: Roboto,sans-serif;
+}
+/*end-variables font-family*/
+/*begin-variables color*/
+.uu-image {
+  color: #111111;
+}
+.uu-body {
+  color: #111111;
+  background-color: #ffffff;
+}
+/*end-variables color*/
+/*begin-variables font*/
+/*end-variables font*/
+/*begin-variables colors*/
+/*end-variables colors*/
+
+/*begin-variables sitestylecss*/
+
+.uu-custom-color-1,
+        .uu-container-style.uu-custom-color-1:before
+        {
+            color: #ffffff;
+            background-color: #161e22;
+        }
+
+        
+
+        /** common-rules **/
+        h2:not(.uu-subtitle)
+        {
+        font-weight: 400;
+        font-size: 2.25rem;
+        line-height: 1.1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        p:not(.uu-text-variant)
+        {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        }
+        /** common-rules **/
+
+        /** publish-rules **/
+        /*begin-media rules*/
+        @media (max-width: 575px) {
+        h2:not(.uu-subtitle)
+        {
+        font-size: 1.5rem;
+        }
+        }
+        /*end-media rules*/
+        /** publish-rules **/
+
+        
+
+        /** cms-rules **/
+        /*begin-responsive rules*/
+        /*end-responsive rules*/
+        /** cms-rules **/
+
+        /** color-rules **/
+        /** color-rules **/
+
+        /** alt-color-rules **/
+        /** alt-color-rules **/
+    
+
+
+/*end-variables sitestylecss*/
+
+ /*begin-variables base-font-size*/ 
+ html { font-size: 16px; }
+ /*end-variables base-font-size*/

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="NO">
+<!-- Prøve uke 39 (01/10/21) -->
+<head>
+	<meta charset="UTF-8">
+	<title>Velkommen til lek og lær!</title>
+	<link rel="stylesheet" type="text/css" href="css/prove.css" />
+
+	<script>
+
+        window.onload = oppstart; 
+        
+        function oppstart() {
+        document.getElementById("btnGenerer").onclick = beregn;
+        }
+
+        function beregn() {
+            var navn = document.getElementById("txtNavn").value;
+            var kjonn = document.getElementById("lstKjonn").value;
+            var alder = document.getElementById("txtAlder").value
+
+            var aarTil100 = 100 - alder;
+
+            var Adjektiv1 = document.getElementById("Adj1").value;
+            var Adjektiv2 = document.getElementById("Adj2").value;
+            var Adjektiv3 = document.getElementById("Adj3").value;
+            var Adjektiv4 = document.getElementById("Adj4").value;
+
+
+            var historie = "Det var en gang en " + Adjektiv1 + kjonn + " som het " + navn + ". " + navn + " var en " + alder + " år gammel gutt som var glad i å leke med " + Adjektiv2 + ". han kunne leke med" + Adjektiv2 + " hele dagen uten stopp. En dag fikk " + navn + " en super ide " + navn + " skulle leke med " + Adjektiv2 + " i ett " + Adjektiv3 + ". " + navn + " lekte og hadde det gøy helt til en " + Adjektiv4 + " kom kjørende i en hvit varebil." + Adjektiv4 + " spurte om " + navn + " ville være med i bilen om han fikk " + Adjektiv4 + ", " + navn + " svarte selvfølgelig ja";
+
+            document.getElementById("historie").innerHTML = historie;
+            
+		}
+
+
+		var slist = {
+            items : [],
+            hlist : null,
+            hadd : null,
+            hitem : null,
+            init : function () {
+
+            slist.hlist = document.getElementById("handleliste");
+            slist.hadd = document.getElementById("shop-add");
+            slist.hitem = document.getElementById("vare");
+            slist.hadd.addEventListener("submit", slist.add);
+
+    if (localStorage.items == undefined) { localStorage.items = "[]"; }
+    slist.items = JSON.parse(localStorage.items);
+
+    slist.draw();
+  },
+
+  add : function (evt) {
+
+    evt.preventDefault();
+
+    slist.items.push({
+      name : slist.hitem.value, // Item name
+      done : false // True for "got it", false for not
+    });
+    slist.hitem.value = "";
+    slist.save();
+
+    slist.draw();
+  },
+
+  draw : function () {
+    slist.hlist.innerHTML = "";
+    if (slist.items.length > 0) {
+      let row, name, delbtn, okbtn;
+      for (let i in slist.items) {
+
+        row = document.createElement("div");
+        row.className = "item-row";
+        slist.hlist.appendChild(row);
+        
+        name = document.createElement("div");
+        name.className = "item-name";
+        name.innerHTML = slist.items[i].name;
+        if (slist.items[i].done) {
+          name.classList.add("item-got");
+        }
+        row.appendChild(name);
+
+        delbtn = document.createElement("input");
+        delbtn.className = "item-del";
+        delbtn.type = "button";
+        delbtn.value = "Delete";
+        delbtn.dataset.id = i;
+        delbtn.addEventListener("click", slist.delete);
+        row.appendChild(delbtn);
+      }
+    }
+  },
+
+
+  save : function () {
+    if (localStorage.items == undefined) { localStorage.items = "[]"; }
+    localStorage.items = JSON.stringify(slist.items);
+  },
+
+  delete : function () {
+      slist.items.splice(this.dataset.id, 1); 
+      slist.save();
+      slist.draw();
+  }
+};
+window.addEventListener("DOMContentLoaded", slist.init);
+
+	</script>
+
+</head>
+
+
+
+<body>
+
+	<main>
+		<div id="grayback">
+			<h1 style="font-weight: bold;">Velkommen til lek & lær!</h1>
+			<p style="font-weight: bold;">Jobb med oppgavene under!</p>
+		</div>
+	</main>
+
+
+
+	<div class="border">
+		<h2>Øv på ord</h2>
+
+		<p>Fyll inn boksene og trykk generer for å kunne lese en kul historie
+		</p>
+		<p>Navn: <input type="text" id="txtNavn" /><br />
+
+		Kjønn: <select id="lstKjonn"><option value="gutt">Gutt</option><option value="jente">Jente</option></select><br />
+
+		Alder: <input type="number" min="0" max="120" id="txtAlder" /><br /> 
+
+		<br>
+		<br>
+
+		Adjektiv nr 1: <input type="text" id="Adj1"> <br>
+
+		Adjektiv nr 2: <input type="text" id="Adj2"> <br>
+
+		Adjektiv nr 3: <input type="text" id="Adj3"> <br>
+
+		Adjektiv nr 4: <input type="text" id="Adj4"> <br>
+
+</p>
+<button id="btnGenerer" type="button">Generer Historie</button> 
+<p id="historie"></p>
+	</div>
+
+
+
+
+	<br>
+
+
+
+	<div class="border">
+		<h2>Mat & Helse</h2>
+
+		<p>Planlegg en sunn middag! Bruk tekstboksen og knappen under, og lag en handleliste over varene du trenger</p>
+
+		<p>Ny vare</p>
+    	<form id="shop-add">
+        <input type="text" id="vare" placeholder="Ny vare" required value="1 flaske melk"/>
+        <input type="submit" id="shop-add-btn" value="Legg till"/>
+        </form>
+		
+		<p>Handleliste</p>
+    	<div id="handleliste"></div>
+		
+		</p>
+	</div>
+</body>
+
+
+</html>
